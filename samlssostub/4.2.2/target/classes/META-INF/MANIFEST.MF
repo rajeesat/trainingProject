@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.identity.sso.saml.stub;uses:="org.wso2
+ .carbon.identity.sso.saml.stub.types.axis2,org.wso2.carbon.identity.s
+ so.saml.stub.types,org.apache.axis2,org.apache.axis2.transport,org.ap
+ ache.axis2.client,org.apache.axis2.context,javax.xml.namespace,org.ap
+ ache.axiom.om,org.apache.axiom.soap,org.apache.axis2.description,org.
+ apache.axis2.util,org.apache.axis2.client.async,org.apache.axis2.addr
+ essing,javax.xml.stream,org.apache.axis2.engine,org.apache.axis2.data
+ binding";version="4.2.0",org.wso2.carbon.identity.sso.saml.stub.types
+ .base;uses:="javax.xml.stream,org.apache.axis2.databinding,org.wso2.c
+ arbon.identity.sso.saml.stub.types.axis2,javax.xml.namespace,org.apac
+ he.axis2.databinding.utils,org.apache.axis2.databinding.utils.reader,
+ org.apache.axiom.om";version="4.2.0",org.wso2.carbon.identity.sso.sam
+ l.stub.types;uses:="javax.xml.stream,org.apache.axis2.databinding.uti
+ ls,org.apache.axis2.databinding,org.wso2.carbon.identity.sso.saml.stu
+ b.types.axis2,javax.xml.namespace,org.apache.axis2.databinding.utils.
+ reader,org.apache.axiom.om";version="4.2.0",org.wso2.carbon.identity.
+ sso.saml.stub.types.axis2;uses:="javax.xml.stream,org.apache.axis2.da
+ tabinding.utils,org.apache.axis2.databinding,javax.xml.namespace,org.
+ apache.axis2.databinding.utils.reader,org.apache.axiom.om,org.wso2.ca
+ rbon.identity.sso.saml.stub.types,org.wso2.carbon.identity.sso.saml.s
+ tub.types.base";version="4.2.0"
+Ignore-Package: javax.xml.namespace
+Built-By: rajee
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.identity.sso.saml.stub
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_45
+Bundle-Version: 4.2.2
+Bnd-LastModified: 1418793429765
+Bundle-ManifestVersion: 2
+Bundle-Description: Platform Parent pom hold the properties, plugins w
+ hich are required to build carbon components, carbon features and pro
+ ducts
+Import-Package: javax.xml.namespace;version="0.0.0",javax.xml.stream;r
+ esolution:=optional,org.apache.axiom.om;resolution:=optional;version=
+ "[1.2,2)",org.apache.axiom.soap;resolution:=optional;version="[1.2,2)
+ ",org.apache.axis2;resolution:=optional;version="[1.6,2)",org.apache.
+ axis2.addressing;resolution:=optional;version="[1.6,2)",org.apache.ax
+ is2.client;resolution:=optional;version="[1.6,2)",org.apache.axis2.cl
+ ient.async;resolution:=optional;version="[1.6,2)",org.apache.axis2.co
+ ntext;resolution:=optional;version="[1.6,2)",org.apache.axis2.databin
+ ding;resolution:=optional;version="[1.6,2)",org.apache.axis2.databind
+ ing.utils;resolution:=optional;version="[1.6,2)",org.apache.axis2.dat
+ abinding.utils.reader;resolution:=optional;version="[1.6,2)",org.apac
+ he.axis2.description;resolution:=optional;version="[1.6,2)",org.apach
+ e.axis2.engine;resolution:=optional;version="[1.6,2)",org.apache.axis
+ 2.transport;resolution:=optional;version="[1.6,2)",org.apache.axis2.u
+ til;resolution:=optional;version="[1.6,2)"
+Bundle-SymbolicName: org.wso2.carbon.identity.sso.saml.stub
+
